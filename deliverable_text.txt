@@ -1,0 +1,65 @@
+OOAD Mini Project Deliverable1
+Team
+Chirag N B                – PES1UG23AM088
+Guru Prashanth VC   -  PES1UG23AM107
+Srushti HG                 -  PES1UG23AM108
+Harini A                      -  PES1UG23AM109
+ERP System:
+Financial Management Subsystem
+1 Introduction
+The Financial Management Subsystem is a core module of the Enterprise Resource Planning (ERP) system, responsible for managing financial transactions, accounting processes, budgeting, forecasting, taxation, and financial reporting within the organization. It integrates multiple financial functions to ensure efficient handling of financial data.
+This subsystem ensures accurate financial tracking, compliance with accounting standards, and provides real-time financial insights to support informed decision-making and effective financial control.
+1. Components of the Financial Management Subsystem
+Accounts Payable
+Accounts Receivable
+Revenue Recognition
+Asset Management
+General Ledger (Core Component)
+Cash Management
+Budgeting
+Forecasting
+Financial Reporting
+Tax Management
+Data & Audit
+2. Inputs and Outputs of Each Component
+2.1 Accounts Payable
+Inputs: Vendor invoice details, Purchase order data, Payment terms, Tax information. Outputs: Payment confirmation records, Expense entries, Updated payable status, Journal entries posted to General Ledger.
+2.2 Accounts Receivable
+Inputs: Customer invoice details, Sales transaction data, Payment receipts. Outputs: Updated customer account balances, Revenue entries, Cash inflow records, Journal entries posted to General Ledger.
+2.3 General Ledger
+Inputs: Journal entries from Accounts Payable and Accounts Receivable, Asset depreciation entries, Revenue recognition entries. Outputs: Trial balance, Ledger reports, Financial statements, Data for Financial Reporting.
+2.4 Cash Management
+Inputs: Bank transaction records, Payment records, Receipt records. Outputs: Updated cash balance, Bank reconciliation reports, Cash flow data.
+2.5 Budgeting
+Inputs: Department budget requests, Historical financial data, Revenue targets. Outputs: Approved budgets, Budget allocation reports, Budget variance data.
+2.6 Forecasting
+Inputs: Historical financial data, Sales trends, Budget information. Outputs: Revenue forecasts, Expense forecasts, Profit projections.
+2.7 Revenue Recognition
+Inputs: Sales contracts, Delivery confirmations, Customer invoices. Outputs:
+Recognized revenue entries, Compliance reports, Journal entries to General Ledger.
+2.8 Asset Management
+Inputs: Asset purchase details, Asset value, Depreciation method. Outputs:
+Depreciation schedule, Asset valuation report, Journal entries to General Ledger.
+2.9 Financial Reporting
+Inputs: General Ledger data, Budget data, Forecast data, Cash management data. Outputs:
+Balance Sheet, Profit and Loss Statement, Cash Flow Statement, Financial summary reports.
+2.10 Tax Management
+Inputs: Financial transaction data, tax rules, regulatory policies.
+Outputs: Tax calculations, tax reports, compliance data, entries to General Ledger.
+2.11 Data & Audit
+Inputs: Transaction logs from Accounts Payable, Accounts Receivable, and General Ledger.         Outputs: Audit trails, stored financial data, logs for compliance and tracking.
+3. Component Diagram
+The component diagram represents the modular architecture of the Financial Management Subsystem, organized into logical packages such as transaction processing, core accounting, financial planning, cash operations, reporting, and data auditing. This structured organization ensures clear separation of responsibilities and improves maintainability and scalability of the system.
+Components such as Accounts Payable, Accounts Receivable, Revenue Recognition, and Asset
+Management are responsible for generating financial transactions and posting them to the General Ledger. The General Ledger acts as the central component of the subsystem, consolidating all financial data and maintaining a unified and consistent financial record.
+Supporting components including Cash Management, Budgeting, Forecasting, and Tax
+Management provide additional financial data and interact with the General Ledger. The
+Financial Reporting component generates key financial reports such as balance sheets and profit & loss statements, while the Data & Audit component maintains logs to ensure traceability, compliance, and data integrity across the subsystem.
+4. Wireframe Design (Minimal UI)
+The following wireframes demonstrate the Dashboard, Accounts Payable, Accounts
+Receivable, General Ledger, Budgeting, Forecasting, Cash Management, Tax
+Management, Financial Reporting, and Audit Logs pages of the Financial Management Subsystem.
+5. Conclusion:
+The Financial Management Subsystem is designed using a modular component-based architecture that integrates multiple financial functionalities into a cohesive system. The General Ledger serves as the central component, ensuring consistent and accurate financial data across all modules.
+The subsystem supports essential operations such as transaction processing, financial planning, cash management, reporting, taxation, and auditing. The updated component diagram highlights the structured interaction between components, while maintaining scalability, maintainability, and compliance.
+Overall, the system provides efficient financial tracking, analysis, and reporting, enabling better decision-making within the organization.
